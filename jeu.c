@@ -32,7 +32,11 @@ int main(int argc, char* argv[])
       }
       else if(? < ?)
       {
-          
+          printf("");
+      }
+      else if(? < ?)
+      {
+          printf("?");
       }
   }
   return 0;
