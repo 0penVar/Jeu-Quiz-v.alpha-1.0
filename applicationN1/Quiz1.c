@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     do
     {
         printf("-----------------------------------------------------------------------\n");
-        printf("\n\t\tQuestion 1\nCombien y-a-t'il de planete dans notre systeme solaire\n\n");
+        printf("\n\t\tQuestion 1\nCombien y-a-t'il de planete dans notre systeme solaire ?\n\n");
         printf("-----------------------------------------------------------------------\n");
 
         do
