@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
         printf("\nVeuillez rentrer votre score de la 19eme question : \n");
           scanf("%d", &s);
       
-        printf("\nVeuillez rentrer votre score de la 20eme question : \n\n");
+        printf("\nVeuillez rentrer votre score de la 20eme question : \n");
           scanf("%d", &t);
             
         r1 = a + b + c + d + e;
@@ -78,10 +78,10 @@ int main(int argc, char* argv[])
         r3 = k + l + m + n + o;
         r4 = p + q + r + s + t;
         total = r1 + r2 + r3 + r4;
-        printf("Votre score total est de %d sur 200\n", total);
+        printf("\nVotre score total est de %d sur 200\n", total);
       
         printf("\nSi vous voulez recalculer, appuyez sur 1, sinon appuyez sur 0");
-        printf("Veuillez ecrire votre choix : ");
+        printf("\nVeuillez ecrire votre choix : ");
           scanf("%d", &recharger);
             
     }while (recharger);
