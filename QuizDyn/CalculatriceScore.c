@@ -13,64 +13,64 @@ int main(int argc, char* argv[])
     
     do
     {
-        printf("Veuillez rentrer votre score de la 1ere question : ");
+        printf("\nVeuillez rentrer votre score de la 1ere question : \n");
           scanf("%d", &a);
       
-        printf("Veuillez rentrer votre score de la 2eme question : ");
+        printf("\nVeuillez rentrer votre score de la 2eme question : \n");
           scanf("%d", &b);
       
-        printf("Veuillez rentrer votre score de la 3eme question : ");
+        printf("\nVeuillez rentrer votre score de la 3eme question : \n");
           scanf("%d", &c);
       
-        printf("Veuillez rentrer votre score de la 4eme question : ");
+        printf("\nVeuillez rentrer votre score de la 4eme question : \n");
           scanf("%d", &d);
         
-        printf("Veuillez rentrer votre score de la 5eme question : ");
+        printf("\nVeuillez rentrer votre score de la 5eme question : \n");
           scanf("%d", &e);
             
-        printf("Veuillez rentrer votre score de la 6eme question : ");
+        printf("\nVeuillez rentrer votre score de la 6eme question : \n");
           scanf("%d", &f);
         
-        printf("Veuillez rentrer votre score de la 7eme question : ");
+        printf("\nVeuillez rentrer votre score de la 7eme question : \n");
           scanf("%d", &g);
       
-        printf("Veuillez rentrer votre score de la 8eme question : ");
+        printf("\nVeuillez rentrer votre score de la 8eme question : \n");
           scanf("%d", &h);
       
-        printf("Veuillez rentrer votre score de la 9eme question : ");
+        printf("\nVeuillez rentrer votre score de la 9eme question : \n");
           scanf("%d", &i);
       
-        printf("Veuillez rentrer votre score de la 10eme question : ");
+        printf("\nVeuillez rentrer votre score de la 10eme question : \n");
           scanf("%d", &j);
       
-        printf("Veuillez rentrer votre score de la 11eme question : ");
+        printf("\nVeuillez rentrer votre score de la 11eme question : \n");
           scanf("%d", &k);
       
-        printf("Veuillez rentrer votre score de la 12eme question : ");
+        printf("\nVeuillez rentrer votre score de la 12eme question : \n");
           scanf("%d", &l);
       
-        printf("Veuillez rentrer votre score de la 13eme question : ");
+        printf("\nVeuillez rentrer votre score de la 13eme question : \n");
           scanf("%d", &m);
       
-        printf("Veuillez rentrer votre score de la 14eme question : ");
+        printf("\nVeuillez rentrer votre score de la 14eme question : \n");
           scanf("%d", &n);
      
-        printf("Veuillez rentrer votre score de la 15eme question : ");
+        printf("\nVeuillez rentrer votre score de la 15eme question : \n");
           scanf("%d", &o);
       
-        printf("Veuillez rentrer votre score de la 16eme question : ");
+        printf("\nVeuillez rentrer votre score de la 16eme question : \n");
           scanf("%d", &p);
       
-        printf("Veuillez rentrer votre score de la 17eme question : ");
+        printf("\nVeuillez rentrer votre score de la 17eme question : \n");
           scanf("%d", &q);
       
-        printf("Veuillez rentrer votre score de la 18eme question : ");
+        printf("\nVeuillez rentrer votre score de la 18eme question : \n");
           scanf("%d", &r);
       
-        printf("Veuillez rentrer votre score de la 19eme question : ");
+        printf("\nVeuillez rentrer votre score de la 19eme question : \n");
           scanf("%d", &s);
       
-        printf("Veuillez rentrer votre score de la 20eme question : ");
+        printf("\nVeuillez rentrer votre score de la 20eme question : \n\n");
           scanf("%d", &t);
             
         r1 = a + b + c + d + e;
@@ -78,9 +78,9 @@ int main(int argc, char* argv[])
         r3 = k + l + m + n + o;
         r4 = p + q + r + s + t;
         total = r1 + r2 + r3 + r4;
-        printf("Votre score total est de %d sur 200", total);
+        printf("Votre score total est de %d sur 200\n", total);
       
-        printf("Si vous voulez recalculer, appuyez sur 1, sinon appuyez sur 0");
+        printf("\nSi vous voulez recalculer, appuyez sur 1, sinon appuyez sur 0");
         printf("Veuillez ecrire votre choix : ");
           scanf("%d", &recharger);
             
